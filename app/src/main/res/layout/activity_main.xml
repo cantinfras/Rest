@@ -40,13 +40,14 @@
 
     <Button
         android:id="@+id/btn_1"
-        android:text="@string/btnOk"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:layout_row="0"
         android:layout_column="1"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_row="0"
+        android:onClick="acaoBotao"
+        android:text="@string/btnOk" />
 
     <TextView
         android:id="@+id/txtView1"
